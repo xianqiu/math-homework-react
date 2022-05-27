@@ -14,3 +14,11 @@ else
     echo ">> Fail. ${service_path} does not exist!"
 fi
 
+# 把更新推送到仓库
+echo ">> Uploading the complied web pages ..."
+cd ${service_path}
+git add .
+git commit -m "update"
+git push origin main
+cd ..
+echo ">> Done."
