@@ -16,7 +16,7 @@ const MyTitle = () => (
       <Title level={4}>作业分级，一目了然</Title>
       <Divider/>
       <Space direction='vertical'>
-        <Text>轻松布置作业。孩子做作业，你却在刷手机111。</Text>
+        <Text>轻松布置作业。孩子做作业，你却在刷手机。</Text>
         <Text>「加减法」 「乘除法」</Text>
         <Text>点击「刷新」，生成新作业</Text>
       </Space>
