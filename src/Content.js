@@ -31,7 +31,7 @@ class ButtonRefresh extends React.Component {
 
   handelClick() {
     // http request
-    const host = "120.48.10.11"
+    const host = "120.48.10.116"
     const url = "http://" + host + ":8888/?series=" + this.props.series + "&level=" + this.props.level;
     axios.get(url).then(response => {
         console.log(response);
